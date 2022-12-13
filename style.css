@@ -1,0 +1,198 @@
+/*GENERAL BODY CSS*/
+body 
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100%;
+}
+
+/*TOPNAV CSS AND MAIN*/
+.topnav a:hover /*changes menu bar interactives color when being hovered over*/
+{
+    /* background-color: #f2f2f2;*/
+     color: #387818;
+}
+.topnav div.split /*sends menu bar interactives to right side*/
+{
+     float: right;
+}
+.topnav 
+{
+  overflow: hidden;
+  background-color: #781838;
+}
+.menuimg 
+{ /*configurations for menu logo up top*/
+    height: 30px;
+    width: 160px;
+    padding-top: 5px;
+    padding-bottom: -3px;
+}
+.topnav a 
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    float: left;
+    color: #fffef2;
+    text-align:center; 
+    padding: 25px 25px 25px 25px;
+    text-decoration: none;
+    font-size: 30px;
+    height: 100%;
+}
+.maintext
+{
+    font-size: 50px;
+}
+.mainLogoDisplay /*sizing and placement for logo*/
+{
+  width: 350px;
+  height: 350px;
+  position:relative;
+  padding: 10px 10px 10px 10px;
+  left: 15px;
+  top:120px;
+}
+
+/*MENU PAGE*/
+.zzz 
+{
+    font-size: 70px;
+    text-transform: uppercase;
+    position: absolute; bottom: 170px;
+    padding: 25px 25px 25px 25px;
+    color:#fffef2;
+}
+.mainSubHeading
+{
+    font-size: 35px;
+    text-transform: uppercase;
+    position: absolute; bottom: 75px;
+    padding: 35px 25px 25px 35px;
+    color:#fffef2;
+}
+
+/*FOOTER - Stays fixed throughout website*/
+.footer 
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #781838;
+    color: #fffef2;
+}
+
+/*MENU SECTION*/
+.middlepage /*setting main font for menu section*/
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.menuHeader{
+    font-size: 60px;
+    text-align: center;
+    color:#781838;
+}
+.piesHeader
+{
+    color:#781838;
+    font-size: 40px;
+    position:relative;
+    left: 285px;
+    bottom: 40px;
+   padding: 15px 15px 15px 15px;
+}
+.piesDetails
+{
+    color:#387818;
+    font-size: 20px;
+    position:relative;
+    left: 290px;
+    bottom: 100px;
+   padding: 15px 15px 15px 15px;
+}
+.piesParagraph
+{
+    color:black;
+    font-size: 20px;
+    position:relative;
+    left: 290px;
+    bottom: 140px;
+    padding: 15px 15px 15px 15px;
+}
+.wineHeader
+{
+    color:#781838;
+    font-size: 40px;
+    position:relative;
+    left: 905px;
+    bottom: 530px;
+   padding: 15px 15px 15px 15px;
+}
+.wineDetails
+{
+    color:#387818;
+    font-size: 20px;
+    position:relative;
+    left: 910px;
+    bottom: 590px;
+   padding: 15px 15px 15px 15px;
+}
+.winesParagraph
+{
+    color:black;
+    font-size: 20px;
+    position:relative;
+    left: 910px;
+    bottom: 640px;
+    padding: 15px 15px 15px 15px;
+}
+
+/* ABOUT SECTION */
+.aboutHeader
+{
+    font-size: 60px;
+    text-align: center;
+    color:#781838;
+}
+.fvStory
+{
+    color:black;
+    font-size: 27px;
+    position:relative;
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    width: 400px;
+    bottom: 40px;
+    left: 250px;
+}
+.fvOutsideShot
+{
+    height: 400px;
+    width: 400px;
+    position:relative;
+    left:375px;
+    bottom: 1000px;
+}
+.fvConcept
+{
+    width: 400px;
+    position:relative;
+    left:775px;
+    bottom: 1px;
+    color:black;
+    font-size: 27px;
+    text-align: right;
+}
+.fvGrandmaPiePic
+{
+    height: 400px;
+    width: 400px;
+    position:relative;
+    left:250px;
+    bottom: 475px;
+}
